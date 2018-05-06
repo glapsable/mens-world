@@ -5,7 +5,7 @@
     const $document = $(document);
 
     // bind events
-    $window.on('scroll', minimizeHeader);
+    // $window.on('scroll', minimizeHeader);
     $document.ready(function() {
         formValidation();
     });
@@ -107,7 +107,6 @@
                 'display': 'block'
             });
         }
-
     }
 
     function minimizeHeader() {
