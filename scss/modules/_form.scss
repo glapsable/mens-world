@@ -1,0 +1,11 @@
+.contact-form__form *.-error{
+    border: 1px solid red;
+}
+
+.contact-form__form *.-pass{
+    border: 1px solid green;
+}
+
+.contact-form__confirmation {
+    display: none;
+}

@@ -1,0 +1,30 @@
+.main-header {
+  padding: 20px 0;
+  margin-bottom: 20px; }
+
+body {
+  background-image: url("../images/photography.png");
+  background-attachment: fixed; }
+
+.main-container {
+  min-height: calc(100vh - 216px); }
+
+.main-container__jumbotron {
+  margin: 20px 0;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+
+.site-gallery > div[class^='col-'] > a {
+  outline: none; }
+
+.contact-form__form *.-error {
+  border: 1px solid red; }
+
+.contact-form__form *.-pass {
+  border: 1px solid green; }
+
+.contact-form__confirmation {
+  display: none; }
+
+.main-footer {
+  padding: 20px 0;
+  margin-top: 20px; }
